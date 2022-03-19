@@ -1,0 +1,16 @@
+.portfolio-img {
+  max-height: 350px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p.lead {
+  text-align: justify;
+}
