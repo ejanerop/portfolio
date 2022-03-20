@@ -31,7 +31,7 @@
 }
 
 /* Style all font awesome icons */
-.fa:not(.fa-envelope) {
+.fab:not(.fa-envelope) {
   padding: 15px;
   font-size: 30px;
   width: 60px;
@@ -39,29 +39,40 @@
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-
-  &:hover {
-    opacity: 0.7;
-  }
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
-.fa-facebook {
-  background: #3b5998;
-  color: white;
+.fa-facebook-f {
+  color: #3b5998;
+  border: 1px solid #3b5998;
+
+  &:hover {
+    background: #3b5998;
+    color: white;
+  }
 }
 
 /* Twitter */
 .fa-twitter {
-  background: #55acee;
-  color: white;
+  color: #55acee;
+  border: 1px solid #55acee;
+
+  &:hover {
+    background: #55acee;
+    color: white;
+  }
 }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+.fa-linkedin-in {
+  color: #007bb5;
+  border: 1px solid #007bb5;
+
+  &:hover {
+    background: #007bb5;
+    color: white;
+  }
 }
 
 .fa-instagram {
@@ -70,6 +81,11 @@
 }
 
 .fa-github {
-  background: #161b22;
-  color: white;
+  color: #161b22;
+  border: 1px solid #161b22;
+
+  &:hover {
+    background: #161b22;
+    color: white;
+  }
 }
